@@ -1,0 +1,88 @@
+*: Loged bugs
+***:Responce from dev
+***$:Resolved
+***I:Invalid
+***R:Reopened
+
+
+--------------------Customer------------------------------------
+1.***$Customer Lien blog without login-->error page
+
+
+Account Setting:
+Update Account Info
+2. *Accepts duplicate additional emails
+3. *Accepts duplicate another representatives
+4. First additional email address can not be removed later
+5. ***$Accepts invalid Office number, Fax number, Mobile Number
+6. ***$Accepts unbounded zip digits
+7. Accepts duplicate document details
+8. ***$Duplicating Cancelled WO-->ErrorException
+
+Work Order:
+1. Parent WO number is same as WO number
+
+CYO:
+1. ***$Continue Edit Existing work order in CYO
+  (Select existing WO and then click on continue
+  OR Select 'Continue editing on this WO')-->ErrorException
+1.1. ***$Continue working on this work order(draft) in CYO-->ErrorException
+2. Design: cheque Error Message frame not aligned.
+3. *Major: Pricing Details are not complete in account
+4. Design: orderTextDuplicate for CYO request
+
+Secondary document:
+1. ***$Edit existing secondary document-->
+   Scroll down and click on 'Generate PDF'-->ErrorException
+
+Statement:
+1. No individual print,save options
+
+
+
+----------------------------------Admin--------------------------------------
+1. Design: Login text overlap
+2. Admin customer filter not working
+3. New Applicant link in top division is not working
+4. *(Also in Customer)Editing Secondary Document: Assigning PWO to
+   the secondary document-->ErrorException
+5. ***$(Major)Click on Research in Dashboard-->DataTable warning message
+6. Employee-->(update employee)or(Register New Employee)
+   -->Create Mailing Pin-->Accepts 'Alphebates' also
+7. ***IR (Major)Research->Goto options of any WO->select 'change acc mgr for this WO'
+   ->'Alfred Polgar' is not listed here.
+8. ***$(Critical)Click on Research in Dashboard-->DataTable warning message and NO ENTRIES in table
+9. *multipleMailsOfAdminAproval
+
+
+---------------------Account Manager---------------------------------
+1. *Research->Proceed with WO->Click on 'Continue'-->pageNotRespondingLongScript
+2. *Research->submittedDateNaN
+3. Design: receipentNameTextOver
+4. Parent WO blank for HardDoc
+5. *Pending Signature option is not available to all HardDoc e.g. Waiver
+6. *Pending Signature mail not sent to customer
+7. *Customer attached signed document-->mail not sent to Acc Mgr
+8. *Major: WO can be submitted and mailed without any receipient.
+9. linkAfterLogoutExcep
+
+Exception causing links:
+http://noticetoowner.php-dev.in/customer/create-your-own/view/uploadreceipt
+http://noticetoowner.php-dev.in/customer/create-your-own/create
+http://noticetoowner.php-dev.in/customer/secondary-document/printSecondaryDocument/27/pdf
+http://noticetoowner.php-dev.in/account-manager/recipient/delete/692/9/268/54?_token=nqT5qKvXiOZE1KCegeUFhqJlypWOgJUIloRzYgLP&contact_id=
+DataTable warning:
+http://noticetoowner.php-dev.in/account-manager/research
+
+
+
+------------------------------misc--------------------------
+Fields mandatary/optional:
+1.NTO:
+Customer: labour should be manadatary,
+-----------------------------status-------------------------
+Found: 31, Design: 3
+Raised: 20
+Not raised: 11
+Resolved: 6
+Invalid:

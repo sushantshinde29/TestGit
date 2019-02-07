@@ -1,0 +1,71 @@
+Four Users: Customer, Account mgr, Admin, Super Admin
+
+Pricing: will explained latter
+Soft Document: Florida, preliminary
+Project Info: 
+parent work order: blank for first order
+contracted by: select from address book, Or add new contact to address book
+Labor service fur: Paints/Brushes, Legal description: Plot number foro e.g
+Doc type: Folio
+Folio Number
+Recipients............
+Type: Lender
+Worok order...........
+Pink colour: due for the delivery
+In case of wroongly submitted WO details: Create Note: I added a wrong date. Please coorrect it.
+Recipients of this note must be cust's acc mgr and Admin only
+
+
+Cust registers on NTO
+
+Company name: Neo Wheels Co
+Contact person: Neo Parker
+Company mailng add:  2150 W Colonial Dr
+City: Orlando, Orange
+State: Florida Zip Code: 32804
+How did u here about us: Internet
+Office Number: (407) 240-2665
+Fax number: (407) 240-2664
+Email: neo@noticetoowner.php-dev.in
+Login Details:
+	Fullname: Neo Parker
+	Email: neo@noticetoowner.php-dev.in
+	pass: neo123
+Officer/Director: Kirt Gardner, Title: Director, 
+Representative: Robert Melone, mail:robert.melone@noticetoowner.php-dev.in,
+   mobile: (123) 456-7891
+---> Your account has been created successfully, but pending for admin approval.
+Credit Card Details:
+Neo Parker, Visa, 01/2026, 4111111111111111, 123, 32804
+
+********************************
+Login with admin details
+New Applicants-->For Neo Wheels Co, 
+	assign Account Manager(Cira Rangel)
+	and Make status Enable(Confirm)
+	-->Customer disappeared from new appeared from new applicants
+
+
+New Work Order-->Select Type: Soft Document(Florida, NTO/Prelim)
+	-->Fill Project info:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
