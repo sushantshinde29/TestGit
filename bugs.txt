@@ -85,4 +85,4 @@ Found: 31, Design: 3
 Raised: 20
 Not raised: 11
 Resolved: 6
-Invalid:
+Invalid:2
